@@ -23,7 +23,7 @@ You can also pass an HTML string as the first argument:
     
 ### Operations
 
-You can supply a single jQuery-like operation, and the program will output the result. The default operation if none is supplied is `--text`, so the program by default behaves like `jQuery(selector).text()`
+You can supply jQuery-like operations, and the program will output the result. The default operation if none is supplied is `--text`, so the program by default behaves like `jQuery(selector).text()`
 
 Equivalent to `$('input').attr('name')`:
 
@@ -34,3 +34,9 @@ Equivalent to `$('input').val`:
 
     $ echo '<input name="user" value="john">' | querydom 'input' --val
     > "john"
+
+#### Chaining
+Chaining works as well. Below is the equivalent to `$('span').parent().find('span').text()`:
+
+    $ echo '<div><span>foobar</span></div>' | querydom span --parent --find=span --text
+    > "foobar"
