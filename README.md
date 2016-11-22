@@ -1,12 +1,11 @@
 # querydom
 Command-Line DOM Querying, for easy querying & chaining with other command line utilities. 
 
-querydom uses querySelector syntax, or what you're used to from CSS or jQuery.
-
 ## Installation
     $ npm install -g querydom
     
 ## Usage
+querydom uses querySelector syntax, or what you're used to from CSS or jQuery.
 
 You can easily pipe HTML to the `querydom` command:
 
