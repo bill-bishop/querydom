@@ -42,4 +42,19 @@ describe('CLI', function () {
       });
     });
   });
+
+  describe('chaining', function () {
+    it('should allow multiple jquery operations', function (done) {
+      let html = `<div class="parent">
+                    parent text
+                    <div class="child" id="success">child text</div>
+                  </div>`;
+
+
+      querydom(html, 'div.child', '--parent', '--find=.child', '--attr=id', function (stdout, stderr, code) {
+        assert.equal(stdout, 'success\n');
+        done();
+      });
+    });
+  });
 });
