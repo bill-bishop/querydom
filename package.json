@@ -37,6 +37,7 @@
     "jquery",
     "cheerio",
     "dom",
+    "html",
     "parsing"
   ]
 }
