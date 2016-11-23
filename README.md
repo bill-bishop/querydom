@@ -1,4 +1,4 @@
-# querydom ![build status](https://travis-ci.org/william-mcmillian/querydom.svg?branch=master")
+# querydom [![Build Status](https://travis-ci.org/william-mcmillian/querydom.svg?branch=master)](https://travis-ci.org/william-mcmillian/querydom)
 Command-Line DOM Querying, for easy querying & chaining with other command line utilities. 
 
 ## Installation
