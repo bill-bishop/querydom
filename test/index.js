@@ -57,4 +57,13 @@ describe('CLI', function () {
       });
     });
   });
+
+  describe('matching multiple elements', function () {
+    it('should seperate collection results by a newline', function () {
+      let html = `<div><ul><li>1</li><li>2</li><li>3</li></div>`;
+      querydom(html, 'li', function (stdout, stderr, code) {
+        assert.equal(stdout, '1\n2\n3\n')
+      })
+    });
+  });
 });
