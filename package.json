@@ -1,7 +1,7 @@
 {
   "name": "querydom",
-  "version": "1.1.9",
-  "description": "Command-Line DOM Querying, for easy querying & chaining with other command line utilities.",
+  "version": "1.1.91",
+  "description": "intuitive, jQuery style DOM querying from the command line, for easy querying & piping i/o to other command line utilities.",
   "main": "lib/index.js",
   "bin": {
     "querydom": "bin/index.js"
@@ -45,6 +45,11 @@
     "dom",
     "html",
     "parsing",
-    "query-dom"
+    "query-dom",
+    "pipe",
+    "piping",
+    "i/o",
+    "stdin",
+    "stdout"
   ]
 }
