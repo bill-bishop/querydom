@@ -1,5 +1,5 @@
 # querydom [![Build Status](https://travis-ci.org/william-mcmillian/querydom.svg?branch=master)](https://travis-ci.org/william-mcmillian/querydom)
-Command-Line DOM Querying, for easy querying & chaining with other command line utilities. 
+jQuery style DOM querying from the command line, for easy querying & piping i/o to other command line utilities.
 
 ## Installation
     $ npm install -g querydom
