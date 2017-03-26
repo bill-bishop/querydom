@@ -1,6 +1,6 @@
 {
   "name": "querydom",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Command-Line DOM Querying, for easy querying & chaining with other command line utilities.",
   "main": "lib/index.js",
   "bin": {
@@ -34,12 +34,17 @@
   },
   "homepage": "https://github.com/william-mcmillian/querydom#readme",
   "keywords": [
+    "command line",
+    "dom parsing",
+    "command line jquery",
+    "cli",
     "query",
     "queryselector",
     "jquery",
     "cheerio",
     "dom",
     "html",
-    "parsing"
+    "parsing",
+    "query-dom"
   ]
 }
