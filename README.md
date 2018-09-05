@@ -1,4 +1,4 @@
-# querydom [![Build Status](https://travis-ci.org/william-mcmillian/querydom.svg?branch=master)](https://travis-ci.org/william-mcmillian/querydom)
+# querydom [![Build Status](https://travis-ci.org/bill-bishop/querydom.svg?branch=master)](https://travis-ci.org/bill-bishop/querydom)
 jQuery style DOM querying from the command line, for easy querying & piping i/o to other command line utilities.
 
 ## Installation
